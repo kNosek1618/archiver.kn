@@ -1,5 +1,5 @@
 
-# score = 0
+# score = 630
 #
 # for i in range(2,15,2):
 #     print(i)
@@ -14,20 +14,20 @@
 
 
 
-score = 4
+input = 999000
 check = 0
 iter = -1
 dif = 0
 
 
-for a in range(2,1000,2):
+for a in range(2,10000000000000,2):
     check += a
     iter += 1
-    if check > score:
+    if check > input:
         iter *= 2
         check -= a
-        dif = score - check
+        dif = input - check
         break
 
-print(f"kompresja liczby {score} daje liczbe matke {iter} oraz potomna {dif}")
+print(f"archive of  {input} take {iter} and a child {dif}")
 
