@@ -14,7 +14,7 @@
 
 
 
-score = 58
+score = 4
 check = 0
 iter = -1
 dif = 0
@@ -29,5 +29,5 @@ for a in range(2,1000,2):
         dif = score - check
         break
 
-print(f"kompresja liczby {58} daje liczbe matke {iter} oraz potomna {2}")
+print(f"kompresja liczby {score} daje liczbe matke {iter} oraz potomna {dif}")
 
