@@ -1,4 +1,5 @@
 
+
 # score = 630
 #
 # for i in range(2,15,2):
@@ -12,6 +13,8 @@
 # 56 = 14
 
 
+
+#  primitive Prototype of archive numbers
 
 
 input = 999000
